@@ -1,7 +1,7 @@
 /*
-    Programmer: Ahmad Sibai (asibai@usf.edu)
+    Programmer: Ahmad Sibai
     Project 2: Spacial Distance Histogram Computation with Efficiency (CUDA)
-    To compile: nvcc SDH.c -o SDH in the GAIVI machines
+    To compile: nvcc SDH_v2.c -o SDH_v2
 */
 
 /* Testing
