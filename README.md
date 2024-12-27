@@ -1,7 +1,8 @@
 # Spacial-Distance-Histogram-Computation-v2
 
-This project represents an optimized version of the CUDA-accelerated computation of a histogram categorizing distances between atoms in a 3D space. Enhancements include shared memory usage, memory coalescing, and improved workload management. These optimizations significantly improve performance over Version 1 while maintaining correctness and consistency between CPU and GPU-generated histograms.
-The program calculates distances between pairs of atoms, updates the appropriate histogram buckets in parallel on the GPU, and compares execution times with the CPU-only version. Additionally, it ensures no discrepancies between the results of the CPU and GPU computations.
+This project is the 2nd version of the Spacial Distance Histogram Computation program, representing an optimized implementation of the CUDA-accelerated computation of a histogram categorizing distances between atoms in a 3D space. This version incorporates advanced optimization techniques, including shared memory usage, memory coalescing, and improved workload management, to achieve enhanced performance compared to Version 1.
+
+The program calculates pairwise distances between atoms, updates the corresponding histogram buckets in parallel on the GPU, and compares the execution times with the CPU-only version. It ensures no discrepancies between CPU and GPU-generated histograms while delivering superior computational efficiency.
 
 Requirements:<br>
 To compile and run the program, you need access to a CUDA-enabled machine. Ensure you have nvcc installed to compile CUDA code.
